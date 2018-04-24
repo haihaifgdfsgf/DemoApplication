@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Alarm/Alarm.iml" filepath="$PROJECT_DIR$/Alarm/Alarm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AppIntroduce/AppIntroduce.iml" filepath="$PROJECT_DIR$/AppIntroduce/AppIntroduce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DemoApplication.iml" filepath="$PROJECT_DIR$/DemoApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MaterilDesign/MaterilDesign.iml" filepath="$PROJECT_DIR$/MaterilDesign/MaterilDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PullDownRefresh/PullDownRefresh.iml" filepath="$PROJECT_DIR$/PullDownRefresh/PullDownRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScrollAndListView/ScrollAndListView.iml" filepath="$PROJECT_DIR$/ScrollAndListView/ScrollAndListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScrollDemo/ScrollDemo.iml" filepath="$PROJECT_DIR$/ScrollDemo/ScrollDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToolBarCoordinator/ToolBarCoordinator.iml" filepath="$PROJECT_DIR$/ToolBarCoordinator/ToolBarCoordinator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewGroupScroll/ViewGroupScroll.iml" filepath="$PROJECT_DIR$/ViewGroupScroll/ViewGroupScroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/destedandrecyclview/destedandrecyclview.iml" filepath="$PROJECT_DIR$/destedandrecyclview/destedandrecyclview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nesteddemo/nesteddemo.iml" filepath="$PROJECT_DIR$/nesteddemo/nesteddemo.iml" />
+    </modules>
+  </component>
+</project>

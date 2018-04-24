@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    #button{
+      width: 200px;
+      height: 60px;
+      background-color: red;
+    }
+  </style>
+  <script>
+    window.onload=function () {
+      var button=document.getElementById('button');
+      button.onclick=function () {
+        android.goActivity();
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="button">跳转</div>
+</body>
+</html>

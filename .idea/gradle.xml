@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Alarm" />
+            <option value="$PROJECT_DIR$/AppIntroduce" />
+            <option value="$PROJECT_DIR$/MaterilDesign" />
+            <option value="$PROJECT_DIR$/PullDownRefresh" />
+            <option value="$PROJECT_DIR$/ScrollAndListView" />
+            <option value="$PROJECT_DIR$/ScrollDemo" />
+            <option value="$PROJECT_DIR$/ToolBarCoordinator" />
+            <option value="$PROJECT_DIR$/ViewGroupScroll" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/destedandrecyclview" />
+            <option value="$PROJECT_DIR$/nesteddemo" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <com.caohai.demoapplication.SlideCloseLayout
+        android:id="@+id/SlideCloseLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:elevation="100dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/mybutton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="#ffccee"/>
+
+            <com.caohai.demoapplication.MyHorizontalScrollView
+                android:id="@+id/horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scrollbars="none"
+                android:tag="MyHorizontalScrollView">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        android:background="#000080"/>
+
+                    <View
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        android:background="#FF4500"/>
+
+                    <View
+                        android:layout_width="200dp"
+                        android:layout_height="100dp"
+                        android:background="#004500"/>
+                </LinearLayout>
+            </com.caohai.demoapplication.MyHorizontalScrollView>
+
+        </LinearLayout>
+
+    </com.caohai.demoapplication.SlideCloseLayout>
+
+</LinearLayout>

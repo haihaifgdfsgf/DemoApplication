@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.caohai.scrollandlistview.MyParent
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/content1"
+        android:textSize="20sp"/>
+
+    <com.caohai.scrollandlistview.MyListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </com.caohai.scrollandlistview.MyListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/content2"
+        android:textSize="20sp"/>
+
+
+</com.caohai.scrollandlistview.MyParent>

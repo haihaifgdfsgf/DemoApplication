@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <com.caohai.demoapplication.MyViewGroup
+        android:id="@+id/my_view_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#ffaacc"/>
+
+    </com.caohai.demoapplication.MyViewGroup>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="开启下一个页面"
+        android:visibility="gone"/>
+
+    <com.caohai.demoapplication.MyViewPager
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ccaacc"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#cc33aa"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00ccaa"/>
+    </com.caohai.demoapplication.MyViewPager>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="开启下一个页面"
+        android:visibility="visible"/>
+
+</LinearLayout>
