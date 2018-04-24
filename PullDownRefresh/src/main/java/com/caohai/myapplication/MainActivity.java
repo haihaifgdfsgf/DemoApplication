@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private LinearLayout rootView;
     private TouchPullView pullView;
     private float startY;
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
