@@ -12,12 +12,12 @@
         android:id="@+id/root_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#aa0000"
         android:orientation="vertical">
 
         <com.caohai.myapplication.Bezier
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
     </LinearLayout>
 
     <com.caohai.myapplication.TouchPullView
